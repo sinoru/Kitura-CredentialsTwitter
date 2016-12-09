@@ -17,8 +17,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "Kitura-CredentialsFacebook",
+    name: "Kitura-CredentialsTwitter",
     dependencies: [
         .Package(url: "https://github.com/IBM-Swift/Kitura-Credentials.git", majorVersion: 1, minor: 3),
+        .Package(url: "https://github.com/sinoru/STwitter.git", "2.0.0-develop.20161209082403"),
     ]
 )
